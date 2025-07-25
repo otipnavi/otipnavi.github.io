@@ -1,0 +1,4 @@
+baseURL = 'https://otipnavi.github.io'
+languageCode = 'en-us'
+title = 'Ivan'
+theme = 'hugo-theme-monochrome'
