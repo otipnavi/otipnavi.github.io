@@ -1,6 +1,6 @@
 baseURL = 'https://otipnavi.github.io'
 languageCode = 'en-us'
-title = 'Ivan'
+title = 'Ivan writes'
 theme = 'hugo-theme-monochrome'
 
 [caches]
