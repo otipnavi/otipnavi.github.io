@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Ivan writes'
 favicon = 'true'
 theme = 'hugo-theme-monochrome'
+googleAnalytics = 'G-S9930MH5BE'
 
 [caches]
   [caches.images]
