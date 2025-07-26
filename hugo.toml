@@ -10,20 +10,12 @@ theme = 'hugo-theme-monochrome'
 
 [params]
     navbar_title = "Ivan writes" # default: site's `title`
-
-[params]
-    footer = "Thought written by Ivan. Wonderful theme made by kaiiiz." # default: None
-
-[params]
+    footer = "Contents written by Ivan. Wonderful theme made by kaiiiz." # default: None
     enable_collapsible_toc = 'true' # default: false
     enable_collapsible_changelogs = 'false' # default: false
-
-[params]
     hide_navbar_on_scroll = 'true' # true | false, default: true
+    author = "Ivan" # default: no author `meta` tag
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
-
-[params]
-    author = "Ivan" # default: no author `meta` tag
 
