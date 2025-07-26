@@ -8,6 +8,6 @@ theme = 'hugo-theme-monochrome'
   [caches.images]
     dir = ':cacheDir/images'
 
-[services]
-  [googleAnalytics]
-    id = 'G-S9930MH5BE'
+services:
+  googleAnalytics:
+    id = "G-S9930MH5BE"
