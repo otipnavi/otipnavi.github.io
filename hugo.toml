@@ -1,13 +1,29 @@
 baseURL = 'https://otipnavi.github.io'
 languageCode = 'en-us'
 title = 'Ivan writes'
-favicon = 'false'
+favicon = 'true'
 theme = 'hugo-theme-monochrome'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
-[services]
-  [googleAnalytics]
-    id = 'G-S9930MH5BE'
+[params]
+    navbar_title = "Ivan writes" # default: site's `title`
+
+[params]
+    footer = "Thought written by Ivan. Wonderful theme made by kaiiiz." # default: None
+
+[params]
+    enable_collapsible_toc = 'true' # default: false
+    enable_collapsible_changelogs = 'false' # default: false
+
+[params]
+    hide_navbar_on_scroll = 'true' # true | false, default: true
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params]
+    author = "Ivan" # default: no author `meta` tag
+
