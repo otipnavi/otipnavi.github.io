@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Ivan writes'
 favicon = 'true'
 theme = 'hugo-theme-monochrome'
-googleAnalytics = 'G-S9930MH5BE'
 
 [caches]
   [caches.images]
@@ -11,7 +10,7 @@ googleAnalytics = 'G-S9930MH5BE'
 
 [params]
     navbar_title = "Ivan writes" # default: site's `title`
-    footer = "Contents written by Ivan. Wonderful theme made by kaiiiz." # default: None
+    footer = "A Hugo blog. Wonderful theme by kaiiiz." # default: None
     enable_collapsible_toc = 'true' # default: false
     enable_collapsible_changelogs = 'false' # default: false
     hide_navbar_on_scroll = 'true' # true | false, default: true
@@ -20,3 +19,11 @@ googleAnalytics = 'G-S9930MH5BE'
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-S9930MH5BE'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
