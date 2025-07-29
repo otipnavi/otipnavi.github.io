@@ -18,9 +18,9 @@
 
 
 <!DOCTYPE html>
-<html lang='en-us'><head>
+<html lang='en-us'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href='https://otipnavi.github.io/favicon.ico' type="image/x-icon">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Catatan Belajar Microsoft Excel: Bagian 1 - Ivan writes</title>
 
@@ -35,7 +35,7 @@
     
 
     
-        <meta property="og:url" content="https://otipnavi.github.io/posts/excel1/">
+        <meta property="og:url" content="http://localhost:1313/posts/excel1/">
   <meta property="og:site_name" content="Ivan writes">
   <meta property="og:title" content="Catatan Belajar Microsoft Excel: Bagian 1">
   <meta property="og:description" content="Catatan Belajar Microsoft Excel Gratis di Coursera, bagian 1: Essentials.">
@@ -53,7 +53,7 @@
   <meta name="twitter:title" content="Catatan Belajar Microsoft Excel: Bagian 1">
   <meta name="twitter:description" content="Catatan Belajar Microsoft Excel Gratis di Coursera, bagian 1: Essentials.">
 
-    <link rel="stylesheet" href="/style.min.1de64e169cb201bbe1618018272c89641e008f9c4209754407e60ad193fc9766.css" integrity="sha256-HeZOFpyyAbvhYYAYJyyJZB4Aj5xCCXVEB&#43;YK0ZP8l2Y=">
+    <link rel="stylesheet" href="/style.css" integrity="">
 
 
 
@@ -87,17 +87,17 @@
             document.documentElement.setAttribute("data-theme", "light");
         }
     </script>
-<script defer src="/js/theme-switch.7c57075675400a1a12bc3fcfc744dd74e1e417b8db11fdef378d7a7ef1cc9e3f.js" integrity="sha256-fFcHVnVAChoSvD/Px0TddOHkF7jbEf3vN416fvHMnj8="></script>
+<script defer src="/js/theme-switch.js" integrity=""></script>
 
 
 
-    <script defer src="/js/hide-navbar-on-scroll.b5f3414715b82a9bc2c9086fc860ad5d0a63f67251e4dd4fa61e9dfce91ebdb6.js" integrity="sha256-tfNBRxW4KpvCyQhvyGCtXQpj9nJR5N1Pph6d/OkevbY="></script>
+    <script defer src="/js/hide-navbar-on-scroll.js" integrity=""></script>
 
 
 
 
 
-    <script defer src="/js/zooming.3bda780b3d5a676b6068e5ad5fd77a313c4371117131529f7e7480e7d4b64d96.js" integrity="sha256-O9p4Cz1aZ2tgaOWtX9d6MTxDcRFxMVKffnSA59S2TZY="></script>
+    <script defer src="/js/zooming.js" integrity=""></script>
 
 
 
@@ -108,7 +108,7 @@
     
         
         
-            <script defer src="/js/builtin-copy.a89c7b4e13df953403c75897ad4b6db68fad6534043bb234d29a80015f1ec9d1.js" integrity="sha256-qJx7ThPflTQDx1iXrUttto&#43;tZTQEO7I00pqAAV8eydE="></script>
+            <script defer src="/js/builtin-copy.js" integrity=""></script>
         
     
 
@@ -209,7 +209,7 @@
     
     
         
-<script defer src="/js/toc-tracker.26e22e7440b91f3d3e715ff146d785b284a548a96dd108b2c066ffcbc6ade89c.js" integrity="sha256-JuIudEC5Hz0&#43;cV/xRteFsoSlSKlt0QiywGb/y8at6Jw="></script>
+<script defer src="/js/toc-tracker.js" integrity=""></script>
 
 <div class="collapsible-menu-wrapper right">
     <div class="collapsible-menu-type">
@@ -442,7 +442,18 @@ View &gt; Freeze Row and Column
         <section id="absolute-reference">
 
 
-<h3>Absolute Reference</h3>
+<h3 class="header-anchor-wrapper">Absolute Reference
+  <a href="#absolute-reference" class="header-anchor-link">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line>
+</svg>
+
+</a>
+</h3>
 
 <p>Penggunaan Fill Handle dapat menyebabkan error apabila data yang digunakan tidak sesuai dengan jumlah baris yang ada. Untuk mengatasi ini, Excel dapat &lsquo;mengunci&rsquo; data yang ingin dimasukkan dalam perhitungan, ditandai dengan simbol ($). Shortcut yang dipakai adalah <code>F4</code> pada keyboard. Sebagai contoh</p>
 <pre><code>=SUM(A1+$C$1)
