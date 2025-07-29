@@ -2,18 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ivan writes</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://otipnavi.github.io/posts/</link>
     <description>Recent content in Posts on Ivan writes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 13:15:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 13:15:00 +0700</lastBuildDate><atom:link href="https://otipnavi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catatan Belajar Microsoft Excel: Bagian 1</title>
-      <link>http://localhost:1313/posts/excel1/</link>
+      <link>https://otipnavi.github.io/posts/excel1/</link>
       <pubDate>Mon, 28 Jul 2025 13:15:00 +0700</pubDate>
       
-      <guid>http://localhost:1313/posts/excel1/</guid>
+      <guid>https://otipnavi.github.io/posts/excel1/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://otipnavi.github.io/posts/excel3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://otipnavi.github.io/posts/excel3/</guid>
+      <description>&lt;p&gt;=== COUNT&lt;/p&gt;
+&lt;p&gt;Fungsi COUNT dan turunannya digunakan untuk menghitung jumlah sel yang memiliki kondisi tertentu. Pada course ini, dijabarkan COUNT, COUNTA, dan COUNTBLANK. COUNT digunakan untuk menghitung berapa banyak sel yang memiliki data berupa angka. Kedua turunannya yaitu COUNTA digunakan untuk menghitung semua sel yang memiliki data, baik itu angka, tulisan, dan tanda baca. COUNTBLANK adalah kebalikan dari COUNTA di mana sel kosong saja yang dihitung.&lt;/p&gt;</description>
     </item>
     
   </channel>
