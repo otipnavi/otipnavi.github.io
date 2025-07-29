@@ -27,3 +27,9 @@ theme = 'hugo-theme-monochrome'
   [privacy.googleAnalytics]
     disable = false
     respectDoNotTrack = true
+
+[param]
+  [param.syntax_highlight]
+  lib = "builtin" # "builtin" | "prism.js" (default: "builtin")
+    [param.syntax_highlight.builtin]
+    enable_code_copy = true # default: true
