@@ -1,7 +1,7 @@
 ﻿+++
 title = 'Catatan Belajar Microsoft Excel: Bagian 1'
 date = '2025-07-28T13:15:00+07:00'
-draft = 'false'
+draft = 'true'
 collapsible_toc = 'false'
 toc_position = 'right' # "top" | "right"
 author = 'Ivan'
